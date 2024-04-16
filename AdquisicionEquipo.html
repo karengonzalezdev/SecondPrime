@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Favicon-->
+  <link rel="shorcut icon" type="image/x-icon" href="../static/img/Logo.ico">
+
+  <title>AdquisicionEquipo</title>
+  <!-- Link librería Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- Link style.css -->
+  <link rel="stylesheet" href="../static/css/styleGradient.css">
+  <!-- Link responsive.css -->
+  <link rel="stylesheet" href="../static/css/responsiveIndex.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+  <!-- Navigation Bar -->
+  <section class="header" id="header">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+                <img class="img-fluid" src="https://drive.google.com/uc?id=1sAumMM0dEMlzlNFlmsaJDGK_iCz59f9w" alt="SecondPrime">
+            </a>
+            <input type="text" placeholder="    ¿Qué estás buscando?" name="search" class="search col-2" id="search"><a href=""><i class="bi bi-search"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <!-- <i class="bi bi-list"></i> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- <input type="text" placeholder="¿Qué estás buscando?" name="search"  class="search col-2" id="search" > -->
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                      <a class="nav-link" href="#offers">Contenido</a>
+                  </li> -->
+                  <li class="nav-item">
+                      <a class="nav-link" href="./ofertas.html">Ofertas</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                      <a class="nav-link" href="#list" type="button" data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i
+                              class="bi bi-list" style="padding-right: 0.5rem;">Todo</i></a>
+                  </li> -->
+                  <li class="nav-item">
+                      <a class="nav-link" href="./productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                          <ul class="navbar-nav">
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Contacto
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                      <li><a class="dropdown-item" href="./acercaDe.html">Acerca De</a></li>
+                                      <li><a class="dropdown-item" href="./contactanos.html">Contáctanos</a></li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./apartadoEquipoUsado.html">
+                          <i class="bi bi-recycle" type="button" data-bs-toggle="tooltip"
+                              data-bs-placement="bottom" title="SP Switch"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./4a_Login.html">
+                          <i class="bi bi-person-circle" type="button" data-bs-toggle="tooltip"
+                              data-bs-placement="bottom" title="Mi cuenta"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a src="" class="nav-link" href="#"  role="button"
+                          data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                          aria-controls="offcanvasRight"><i class="bi bi-cart4" type="button"
+                              data-bs-placement="bottom" title="Carrito"></i></a>
+                  </li>
+                  <!-- <li class="nav-item">
+                      <a class="nav-link" href="./carrito.html"><i class="bi bi-cart4" type="button" data-bs-toggle="tooltip"
+                              data-bs-placement="bottom" title="Carrito"></i></a>
+                  </li> -->
+              </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+  <!-- FIN Navigation Bar -->
+
+  <!-- Dos espacios para evitar que se pegue con la barra del menú-->
+  <br>
+  <br>
+
+  <!-- Formularios Texto-->
+  <br>
+  <p class="text-center fs-1 fw-bold">
+    Ingresa tus datos para poder contactarte:
+  </p>
+  <br>
+  <!-- FIN Formularios Texto-->
+
+  <!-- Inicio Container container -->
+  <div class="container">
+    <!-- Formularios Container-->
+    <form class="row g-3" method="POST" id="form">
+      <div class="col-md-6">
+        <label type="text" placeholder="Full name" for="nombre" class="form-label">Nombre del Interesado</label>
+        <input type="text" class="form-control" id="nombre">
+      </div>
+      <div class="col-md-6">
+        <label type="text" placeholder="Apellidos" for="apellido" class="form-label">Apellidos</label>
+        <input type="text" class="form-control" id="apellido">
+      </div>
+      <div class="col-md-6">
+        <label for="direccion" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="direccion">
+      </div>
+      <div class="col-md-6">
+        <label for="tel" class="form-label">Teléfono</label>
+        <input type="number" class="form-control" id="tel" placeholder="Ingresa tu número de TEL">
+      </div>
+      <div class="col-md-6">
+        <label for="ciudad" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="ciudad">
+      </div>
+      <div class="col-md-4">
+        <label for="estado" class="form-label">Estado</label>
+        <select id="estado" class="form-select">
+          <option selected>Jalisco</option>
+          <option>Michoacán</option>
+          <option>CDMX</option>
+          <option>Estado de México</option>
+          <option>Guanajuato</option>
+          <option>Oaxaca</option>
+          <option>Monterrey</option>
+          <option>Chihuahua</option>
+          <option>Sinaloa</option>
+          <option>Zacatecas</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="codigo_postal" class="form-label">Código postal</label>
+        <input type="text" class="form-control" id="codigo_postal">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="check">
+          <label class="form-check-label" for="gridCheck">
+            Acepto los términos y condiciones
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" id="Uni-button" class="btn btn-primary">Continuar</button>
+        <p class="warnings" id="warnings"></p>
+      </div>
+    </form>
+    <!-- Validación de Formulario con JS -->
+    <script src="validacionFormularioAdquisicionEquipo.js"></script> 
+    <!-- FIN Formulario -->
+  </div>
+  <!-- FIN container -->
+  <br>
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="p-3 copyright">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+                    <p class="my-0"><a href="#">
+                            <h4>Contáctanos</h4>
+                        </a></p>
+                    <p class="my-0">contacto@secondprime.com <br> Tel. 55 123 4 5678 </p><!-- Logo -->
+                    <p class="my-0">
+                        <!-- Facebook Logo -->
+                        <i class="bi bi-facebook"></i>
+
+                        <!-- Twiter Logo -->
+                        <i class="bi bi-twitter"></i>
+
+                        <!-- Instagram Logo-->
+                        <i class="bi bi-instagram"></i>
+
+                        <!-- Tiktok Logo -->
+                        <i class="bi bi-tiktok"></i>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+                    <p class="my-0">Copyright © 2021 <a href="#">E-SHOP</a> All Rights Reserved</p>
+                    <p>Designed by <a href="#" target=" _blank">SecondPrime</a> Inc.</p>
+                    <p>Aviso de Privacidad</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Seccion del link Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

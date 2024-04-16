@@ -1,0 +1,125 @@
+@media(max-width: 1030px){
+    /* Home */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3{
+        background-position: 65% center;
+        min-height: 330px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%, -50%);
+    }
+    /* Offer */
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 3rem;
+    }   
+}
+
+@media(max-width: 991px){
+    /* Home */
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, -50%);
+    }
+
+    /* US */   
+    .us .headline h2{
+        font-size: 1.7rem;
+    }
+    .us .us-content{
+        font-size: 1.2rem;
+    }
+    .us-team h1{
+        font-size:1.8rem;
+    }
+    .us-team h2{
+        font-size:1.6rem;
+    }
+    .us-team .us-team-banner p{
+        font-size: 1.2rem;
+    }
+    
+    
+}
+
+@media(max-width: 767px){
+    /* Home */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3{
+        background-position: 50% center;
+        min-height: 310px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;        
+        transform: translate(-50%, -50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+    .home .home-banner .home-banner-text .btn-primary{
+        padding: 0.5rem 1.5rem;
+    }
+    .home .slider-icon{
+        font-size: 2rem;
+    }
+
+
+    /* Products */
+    .products .up_to_content h2 {
+        font-size: 0.68rem;
+    }
+    .product-list .product-image img {        
+        max-width: 200px;
+    }
+
+    /* US */
+    .us-team .us-team-banner{
+        height: 570px;
+    }
+    .us-team h1{
+        font-size:1.7rem;
+    }
+    .us-team h2{
+        font-size:1.3rem;
+    }
+    .us-team .us-team-banner p{
+        font-size: 1rem;
+    }
+
+        
+}
+
+@media(max-width: 390px){
+    /* Home */
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+    /* Product */
+    .products .up_to_content h2 {
+        font-size: 0.625rem;
+    }
+
+    /* US */    
+    .us .headline h2{
+        font-size: 1.4rem;
+    }
+    .us .us-content{
+        font-size: 1rem;
+    }
+    .us-team .us-team-banner{
+        height: 600px;
+    }    
+    .us-team h1{
+        font-size:1.4rem;
+    }
+    .us-team h2{
+        font-size:1.2rem;
+    }
+    .us-team .us-team-banner p{
+        font-size: 1rem;
+    }
+}

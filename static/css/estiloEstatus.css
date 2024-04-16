@@ -1,0 +1,64 @@
+
+/*CONTENEDOR DETALLES ENVIO*/
+#detEnv{
+	background-color: #c2cfdd;
+	margin-top: 25px;
+	border: solid 1px rgb(0, 0, 0);
+	margin-bottom: 25px;
+	text-align-last:center;
+    padding-bottom: 20px;
+}
+.col-md-6{
+	padding-top: 10px;
+}
+
+/*CONTENEDOR DE ICONOS "ESTATUS*/
+#estatus1{
+	text-align-last:center;
+	background-color: #c2cfdd;
+	border: solid 1px rgb(0, 0, 0);
+	margin-top: 100px;
+	padding-bottom: 20px;
+}
+
+/*ICONOS DE ESTATUS*/
+.status{
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.status:before{
+    content: '';
+    position: absolute;
+    left: -5px;;
+    top: -5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite ease-in;
+}
+.status.confirmacion,
+.status.confirmacion:before{
+    background: #35ee07;
+}
+.status.preparacion,
+.status.preparacion:before{
+    background: #EDF2EF;
+}
+.status.completado,
+.status.completado:before{
+    background: #EDF2EF;
+}
+@keyframes pulse{
+    from{
+        transform: scale(0.5);
+        opacity: 1;
+    }to{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_envio{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.envio_menu{
+    background: rgb(245, 160, 160);
+    width: 100%;
+    max-width: 1100px;
+    height: 200px;
+    padding: 80px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.em1{
+    background: rgb(193, 255, 93);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.em2{
+    background: rgb(255, 201, 93);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.em3{
+    background: rgb(93, 215, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container_header {
+    background: #fff;
+    width: 98%;
+    margin: 20px auto 0px auto;
+    padding:  0 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    color: rgb(24, 50, 180);
+}
+
+.container_direccion,
+.container_pago {
+    background: #fff;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0px auto;
+}
+
+.container_direccion h2,
+.container_pago h2{
+    padding-left: 20px;
+}
+
+.formulario {
+    background: #fff;
+    width: 100%;
+    margin: 0px auto 30px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.formulario h2 {
+    padding: 0;
+}
+
+.formulario_grupo{
+    margin-bottom: 15px;
+}
+
+.formulario_grupo-input{
+    position: relative;
+}
+
+.formulario_input{
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 20px;
+    transition: .3s ease all;
+}
+
+.formulario_input:focus{
+    border: 1px solid rgb(28, 58, 207);
+    outline: none;
+    box-shadow: 1px 0px 30px rgba(28, 58, 207, 0.4);
+}
+
+.formulario_input-informacion{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: rgb(28, 58, 207);
+    margin-bottom: 0;
+    text-align: right;
+    display: none;
+}
+
+.formulario_input-informacion-activo{
+    display: block;
+}
+
+.formulario_input-error{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(28, 58, 207);
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario_input-error-activo{
+    display: block;
+}
+
+.formulario_grupo-btn-enviar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.formulario_btn{
+    line-height: 45px;
+    width: 40%;
+    background: rgb(28, 58, 207);
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.formulario_btn:hover{
+    background: rgb(24, 50, 180);
+    box-shadow: 3px 0px 30px rgba(32, 66, 236, 0.4);
+}
+
+.formulario_mensaje-exito{
+    padding-top: 10px;
+    color: rgb(24, 50, 180);
+    display: none;
+}
+
+.formulario_mensaje-exito-activo{
+    display: block;
+}
+
+.formulario_label{
+    margin-top: 10px;
+    padding: 0 15px;
+    font-size: 12px;
+    text-align: justify;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.formulario_label p{
+    margin-bottom: 10px;
+}
+
+.formulario_label2{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.formulario_label a,
+.formulario_label2 a{
+    text-decoration: none;
+    color: rgb(28, 58, 207);
+}
+
+.formulario_label a:hover,
+.formulario_label2 a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+
+
+/****** *** Pago *** ******/
+.pago_tarjeta,
+.pago_efectivo{
+    width: 95%;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+}
+
+.pago_tarjeta{
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.pago_tarjeta-enviar,
+.pago_efectivo-enviar{
+    margin-top: 20px;
+
+    line-height: 45px;
+    padding: 10px;
+    background: rgb(28, 58, 207);
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.pago_tarjeta-enviar:hover,
+.pago_efectivo-enviar:hover{
+    background: rgb(24, 50, 180);
+    box-shadow: 3px 0px 30px rgba(32, 66, 236, 0.4);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+    .formulario_grupo-btn-enviar{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:770px){
+    .formulario{
+        grid-template-columns: 1fr;
+    }
+    .formulario_grupo{
+        grid-column: 1;
+    }
+
+    .formulario_grupo-btn-enviar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+}

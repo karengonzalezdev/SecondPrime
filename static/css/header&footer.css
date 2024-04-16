@@ -1,0 +1,180 @@
+/* Font Neuton*/
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* Background color */
+    --bg-primary: #3737c1;
+    --bg-white: #fff;
+    --bg-ligth-white: #dfdfdf;
+    --bg-gray: #f3f3f4;
+
+    /* Text color */
+    --primary-font: "Neuton", sans-serif;
+    --text-white:#fff;
+    --text-black:#121212;
+    --text-primary:#3737c1;
+    --text-second:#3274f7;
+    /* #3274f7; 0bc0dc;*/
+    --text-gray: #d3d3d3;
+    --text-darck-gray: rgb(78, 78, 78);
+}
+
+body{
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 480;
+    line-height: 1.75rem;
+    background: var(--bg-white);
+    color: var(--text-black);
+    overflow-x: hidden;
+}
+
+/* Custom CSS */
+a, a:hover{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+.btn-primary{
+    background: var(--bg-primary);
+    border-color: var(--bg-primary);
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover{
+    color:var(--text-primary);
+    background: transparent;
+    text-shadow: none;
+}
+
+/* Nav */
+#header .fixed-top{
+    box-shadow: 0 0.125rem 0.675rem rgba(0, 0, 0,5%);
+}
+#header .navbar .navbar-brand img{
+    width: 35px;
+    height: 35px;
+}
+#header .navbar input{
+    margin-right: 10px;
+}
+#header .navbar i{
+    margin-left: 0.5rem;
+}
+#header .navbar .search{
+    font-size: small;
+    margin-left: 7rem; 
+    border-radius: 10px;
+    border-color: var(--text-second);
+}
+
+#header .navbar .dropdown-menu{
+    border:2px solid rgba(215, 215, 215,0.3);
+    border-radius: 5px;
+}
+#header .navbar .dropdown-menu .dropdown-item:hover{
+    color: var(--text-primary);
+}
+
+#header .navbar-nav .nav-item .nav-link{
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active{
+    color: var(--text-second);
+}
+
+
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+    background-color: var(--bg-light-white);
+}
+
+
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+#header .navbar-toggler-icon svg{
+    color: var(--text-primary);
+    width: 20px;
+    height: 20px;
+}
+#header .navbar-brand .img-fluid{
+    height: 4rem;
+    width: 4rem;
+    background-color: #ffff;
+}
+
+/* List */
+.offcanvas{
+    width: 18rem; 
+}
+.offcanvas-header{
+    box-shadow: 0 0.125rem 0.375rem rgba(20, 20, 71, 0.3);
+    height:2.5rem;
+}
+
+.offcanvas-title, 
+.offcanvas-title h1, 
+.offcanvas-title img{
+    font-size: 1.5rem;
+    color: var(--text-primary);   
+    margin: 0 auto; 
+}
+.offcanvas .list h5{
+    text-align: center; 
+}
+
+.offcanvas .list .list-search{
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+.offcanvas .list  a.link-search{
+    color: var(--text-black);
+}
+.offcanvas .list .list-search:hover{
+    color: var(--text-primary);
+    background-color: var(--bg-gray);
+}
+.offcanvas .list-group-item .row:hover{
+    color: var(--text-primary);
+}
+
+.offcanvas-body .before-menu{
+    color: var(--text-primary);
+    margin: 0 auto;
+}
+.offcanvas-body .before-menu:hover{
+    color: var(--text-second);
+}
+
+
+
+/* Footer */
+.copyright {
+    background: var(--bg-primary);
+}
+
+.copyright p,
+.copyright a {
+    color: var(--text-white);
+}
+.footer i {
+    color: var(--text-white);
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}

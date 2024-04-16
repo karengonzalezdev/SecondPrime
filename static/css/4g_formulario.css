@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.condiciones{
+    width: 100%;
+}
+
+.politica {
+    background: #fff;
+    width: 100%;
+    max-width: 1000px;
+    margin: 80px auto 30px auto;
+    padding: 30px;
+}
+
+.politica h2{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.politica p{
+    text-align: justify;
+}
+
+.leer{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.politica h3{
+    margin-top: 20px;
+}
+
+.contactanos{
+    margin-top: 10px;
+}
+
+.politica ul{
+    padding-top: 10px;
+    list-style: none;
+}
+.lista ul{
+    list-style: circle;
+}

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+    <!--Favicon-->
+    <link rel="shorcut icon" type="image/x-icon" href="../static/img/Logo.ico">
+    
+    <title>E-comerce: SecondPrime</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Link Temify Icons -->
+    <!-- <link rel="stylesheet" href="./themify-icons.css"> -->
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Link style.css -->
+    <!-- Link responsive.css -->
+    <link rel="stylesheet" href="../static/css/responsiveAcercaDe.css">
+    <!-- <link rel="stylesheet" href="/static/css/carrito.css"> -->
+    <link rel="stylesheet" href="../static/css/styleGradient.css">
+    
+    
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navigation Bar -->
+    <section class="header" id="header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="img-fluid" src="https://drive.google.com/uc?id=1sAumMM0dEMlzlNFlmsaJDGK_iCz59f9w" alt="SecondPrime">
+                </a>
+                <input type="text" placeholder="    ¿Qué estás buscando?" name="search" class="search col-2" id="search"><a href=""><i class="bi bi-search"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <!-- <i class="bi bi-list"></i> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- <input type="text" placeholder="¿Qué estás buscando?" name="search"  class="search col-2" id="search" > -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#offers">Contenido</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ofertas.html">Ofertas</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#list" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i
+                                    class="bi bi-list" style="padding-right: 0.5rem;">Todo</i></a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Contacto
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="./acercaDe.html">Acerca De</a></li>
+                                            <li><a class="dropdown-item" href="./contactanos.html">Contáctanos</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./apartadoEquipoUsado.html">
+                                <i class="bi bi-recycle" type="button" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="SP Switch"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./4a_Login.html">
+                                <i class="bi bi-person-circle" type="button" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Mi cuenta"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a src="" class="nav-link" href="#"  role="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight"><i class="bi bi-cart4" type="button"
+                                    data-bs-placement="bottom" title="Carrito"></i></a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="./carrito.html"><i class="bi bi-cart4" type="button" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Carrito"></i></a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- START SECTION SHOPPING CART -->
+    <section class="shopping-cart">
+        <div class="container" id="estatus1">
+            <h2 class="text-center">Carrito</h2>
+            <hr>
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6>Producto</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="text-truncate">Precio</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6>Cantidad</h6>
+                    </div>
+                </div>
+                <!-- ? START SHOPPING CART ITEMS -->
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>
+            <!-- ? END SHOPPING CART ITEMS -->
+             <!-- START TOTAL -->
+             <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total  align-items-center">
+                        <p class="mb-0 total">Total&nbsp;</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">&nbsp; $0</p>
+                        <button class="btn btn-info ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END TOTAL -->
+            </div></section>
+            
+    
+
+    
+        <section id="products" class="products">
+            <div class="container" id="estatus2">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="headline text-center mb-5">
+                            <h2 class="pb-3 position-relative d-inline-block">Recomendaciones</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-card col-sm-6 col-lg-4">
+                        <a href="#" class="d-block text-center mb-4">
+                            <div class="product-list">
+                                <div class="product-image position-relative">
+                                    <div class="row"><i class="bi bi-heart"></i></div>
+                                    <img src="https://www.jaher.com.ec/730-home_default/celular-xiaomi-redmi-9-32gb.jpg"
+                                        alt="products" class="img-fluid product-image-first"
+                                        data-lazy-src="assets/images/p1.jpg"><noscript><img src="assets/images/p1.jpg"
+                                            alt="products" class="img-fluid product-image-first"></noscript>                                
+                                </div>
+                                <div class="product-name pt-3">
+                                    <h3 class="item-title">Smartphone</h3>
+                                    <p class="mb-0 amount">$400.00</p>
+                                    <div class="py-1">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <button type="button" class="add_to_Card">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-card col-sm-6 col-lg-4">
+                        <a href="#" class="d-block text-center mb-4">
+                            <div class="product-list">
+                                <div class="product-image position-relative">
+                                    <div class="row"><i class="bi bi-heart"></i></div>
+                                    <img src="https://i.ebayimg.com/thumbs/images/g/3dUAAOSwDYZdzOo9/s-l300.jpg"
+                                        alt="products" class="img-fluid product-image-first"
+                                        data-lazy-src="assets/images/p2.jpg"><noscript><img src="assets/images/p2.jpg"
+                                            alt="products" class="img-fluid product-image-first"></noscript>                                
+                                </div>
+                                <div class="product-name pt-3">
+                                    <h3 class="item-title">Muelle de Teclado</h3>
+                                    <p class="mb-0 amount">$300.00</p>
+                                    <div class="py-1">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <button type="button" class="add_to_Card">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-card col-sm-6 col-lg-4">
+                        <a href="#" class="d-block text-center mb-4">
+                            <div class="product-list">
+                                <div class="product-image position-relative">
+                                    <div class="row"><i class="bi bi-heart"></i></div>
+                                    <img src="https://m.media-amazon.com/images/I/41jOUzGBApL._AC_.jpg"
+                                        alt="products" class="img-fluid product-image-first"
+                                        data-lazy-src="assets/images/p4.jpg"><noscript><img src="assets/images/p4.jpg"
+                                            alt="products" class="img-fluid product-image-first"></noscript>                                
+                                </div>
+                                <div class="product-name pt-3">
+                                    <h3 class="item-title">Auriculares con Orejas de Gato</h3>
+                                    <p class="mb-0 amount">$600.00</p>
+                                    <div class="py-1">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <button type="button" class="add_to_Card">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-card col-sm-6 col-lg-4">
+                        <a href="#" class="d-block text-center mb-4">
+                            <div class="product-list">
+                                <div class="product-image position-relative">
+                                    <div class="row"><i class="bi bi-heart"></i></div>
+                                    <img src="https://img.global.news.samsung.com/pe/wp-content/uploads/2019/12/TAB-S6.jpg"
+                                        alt="products" class="img-fluid product-image-first"
+                                        data-lazy-src="assets/images/p10.jpg"><noscript><img src="assets/images/p10.jpg"
+                                            alt="products" class="img-fluid product-image-first"></noscript>
+                                </div>
+                                <div class="product-name pt-3">
+                                    <h3 class="item-title"> Galaxy Tab S6 </h3>
+                                    <p class="mb-0 amount">$500.00</p>
+                                    <div class="py-1">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <button type="button" class="add_to_Card">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-card col-sm-6 col-lg-4">
+                        <a href="#" class="d-block text-center mb-4">
+                            <div class="product-list">
+                                <div class="product-image position-relative">
+                                    <div class="row"><i class="bi bi-heart"></i></div>
+                                    <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/01/28/16433651792407.jpg"
+                                        alt="products" class="img-fluid product-image-first"
+                                        data-lazy-src="assets/images/p8.jpg"><noscript><img src="assets/images/p8.jpg"
+                                            alt="products" class="img-fluid product-image-first"></noscript>
+                                </div>
+                                <div class="product-name pt-3">
+                                    <h3 class="item-title">Elitebook</h3>
+                                    <p class="mb-0 amount">$600.00</p>
+                                    <div class="py-1">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <button type="button" class="add_to_Card">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-card col-sm-6 col-lg-4">
+                        <a href="#" class="d-block text-center mb-4">
+                            <div class="product-list">
+                                <div class="product-image position-relative">
+                                    <div class="row"><i class="bi bi-heart"></i></div>
+                                    <img src="https://i.ebayimg.com/thumbs/images/g/ELwAAOSwAlBiFMdn/s-l300.jpg"
+                                        alt="products" class="img-fluid product-image-first"
+                                        data-lazy-src="assets/images/p1.jpg"><noscript><img src="assets/images/p1.jpg"
+                                            alt="products" class="img-fluid product-image-first"></noscript>
+                                </div>
+                                <div class="product-name pt-3">
+                                    <h3 class="item-title">Mouse Trackball</h3>
+                                    <p class="mb-0 amount">$500.00</p>
+                                    <div class="py-1">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <button type="button" class="add_to_Card">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="p-3 copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+                        <p class="my-0"><a href="#">
+                                <h4>Contáctanos</h4>
+                            </a></p>
+                        <p class="my-0">contacto@secondprime.com <br> Tel. 55 123 4 5678 </p><!-- Logo -->
+                        <p class="my-0">
+                            <!-- Facebook Logo -->
+                            <i class="bi bi-facebook"></i>
+
+                            <!-- Twiter Logo -->
+                            <i class="bi bi-twitter"></i>
+
+                            <!-- Instagram Logo-->
+                            <i class="bi bi-instagram"></i>
+
+                            <!-- Tiktok Logo -->
+                            <i class="bi bi-tiktok"></i>
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+                        <p class="my-0">Copyright © 2021 <a href="#">E-SHOP</a> All Rights Reserved</p>
+                        <p>Designed by <a href="#" target=" _blank">SecondPrime</a> Inc.</p>
+                        <p>Aviso de Privacidad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Main.js -->
+    <script src="/static/js/carrito.js"></script>
+
+
+</body>
+
+</html>

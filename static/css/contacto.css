@@ -1,0 +1,25 @@
+
+/* FOOTER CONTACTO */
+body {
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+}
+
+footer {
+    background-color: #1C2C54;
+    width: 100%;
+}
+
+h3 {
+    color: rgb(252, 252, 252);
+    font-family: neuton;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: neuton;
+}
+
+svg {
+    color: rgb(255, 255, 255);
+}

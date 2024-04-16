@@ -1,0 +1,47 @@
+/* Font Neuton*/
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+#div1 {
+    background-color: #fdfdfd;
+    padding: 10px 40px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+h2 {
+    color: rgb(7, 7, 7);
+}
+
+#p1 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#img-nosotros{ 
+    padding: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#logo {
+    width: 64px;
+    height: 64px;
+
+}
+
+#parrafo {
+    font-size: 20px;
+}
+
+form {
+    margin: auto;
+    padding: 2em;
+}
+
+textarea {
+    vertical-align: top;
+    height: 6em;
+}
