@@ -29,85 +29,278 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar">
 
-    <!-- Navigation Bar -->
-    <section class="header" id="header">
-        <nav class="navbar navbar-expand-lg bg-white fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="./index.html">
-                    <img class="img-fluid" src="https://drive.google.com/uc?id=1sAumMM0dEMlzlNFlmsaJDGK_iCz59f9w" alt="SecondPrime">
-                </a>
-                <input type="text" placeholder="    ¿Qué estás buscando?" name="search" class="search col-2" id="search"><a href=""><i class="bi bi-search"></i></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <!-- <i class="bi bi-list"></i> -->
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list"
-                            viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                        </svg>
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#offers">Contenido</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="./ofertas.html">Ofertas</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#list" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i
-                                    class="bi bi-list" style="padding-right: 0.5rem;">Todo</i></a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="./productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
-                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Contacto
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="./acercaDe.html">Acerca De</a></li>
-                                            <li><a class="dropdown-item" href="./contactanos.html">Contáctanos</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./apartadoEquipoUsado.html">
-                                <i class="bi bi-recycle" type="button" data-bs-toggle="tooltip"
-                                    data-bs-placement="bottom" title="SP Switch"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./4a_Login.html">
-                                <i class="bi bi-person-circle" type="button" data-bs-toggle="tooltip"
-                                    data-bs-placement="bottom" title="Mi cuenta"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a src="" class="nav-link" href="#"  role="button"
-                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                                aria-controls="offcanvasRight"><i class="bi bi-cart4" type="button"
-                                    data-bs-placement="bottom" title="Carrito"></i></a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="./carrito.html"><i class="bi bi-cart4" type="button" data-bs-toggle="tooltip"
-                                    data-bs-placement="bottom" title="Carrito"></i></a>
-                        </li> -->
-                    </ul>
+ <!-- Navigation Bar -->
+ <section class="header" id="header">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img class="img-fluid" src="./static/img/Logo.png"
+                    alt="SecondPrime">
+            </a>
+            <input type="text" placeholder="    ¿Qué estás buscando?" name="search" class="search col-2"
+                id="search"><a href=""><i class="bi bi-search"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ofertas.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#list" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i
+                                class="bi bi-list" style="padding-right: 0.5rem;">Todo</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Contacto
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="./acercaDe.html">Acerca De</a></li>
+                                        <li><a class="dropdown-item" href="./contactanos.html">Contáctanos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./apartadoEquipoUsado.html">
+                            <i class="bi bi-recycle" type="button" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" title="SP Switch"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./4a_Login.html">
+                            <i class="bi bi-person-circle" type="button" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" title="Mi cuenta"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a src="" class="nav-link" href="carrito.html"  role="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight"><i class="bi bi-cart4" type="button"
+                                data-bs-placement="bottom" title="Carrito"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+    <!--Carrito-->
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRight"
+    aria-labelledby="offcanvasScrollingLabel">
+        <div id="carrito" class="" aria-labelledby="">
+            <div id="" class="table-responsive">
+                <table class="table table-sm">
+                <thead class="tableTitula">
+                    <tr>
+                        <th scope="col"> <i class="bi bi-x-square-fill" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></i></th>
+                        <th scope="col-3">Cantidad</th>
+                        <th scope="col-3">Imagen</th>
+                        <th scope="col-3">Nombre</th>
+                        <th scope="col-3">Precio</th>
+
+                    </tr>
+                </thead>
+            </table>
+            <span class="shoppingCartItemsContainer"></span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="shopping-cart-total">
+                        <hr>
+                        <p class="mb-0"><b>Total</b></p>
+                        <p class="ml-4 mb-0 shoppingCartTotal"><b>$0</b></p>
+                    </div>
+                    <a href="./4i_Envio.html"><button class="btn btn-p btn-primary ml-auto comprarButton" type="button" data-toggle="modal"
+                        data-target="#comprarModal" style="margin-left: 10rem;">Comprar</button></a>
+                    
                 </div>
             </div>
-        </nav>
-    </section>
+        </div>
+    </div>
+
+        <!-- List -->
+    <!-- offcanvas 1: Categorías -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop"
+        aria-labelledby="offcanvasWithBackdropLabel">
+        <!-- Listado por categorías: HEADER -->
+        <div class="offcanvas-header">
+            <div class="row offcanvas-title" id="offcanvasWithBackdropLabel">
+                <div class="col"><img
+                        src="https://bn02pap001files.storage.live.com/y4mwqYAPpJzbjtfAwxBSxNnak8pLUv_MNRnuD2rOfsrvxAEBbI7LGJRSrGyLKkAJgI7iS9ZJY1Y0mN_VTUtJ2qMBjQHoakuRGShQODlrmm1-bk6WSfB4Gz-GBWSn2dbqDjzcVuZ5F6KDWXSp4b9fm3I2Ajf6pwX_vumrvQVsLf0E4-oPqtwQiXpjbkOK621qTyX?width=256&height=256&cropmode=none"
+                        width="35" height="35" /></div>
+                <div class="product col">
+                    <h1>Productos</h1>
+                </div>
+            </div>
+            <i class="bi bi-x text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <!-- Listado por categorías: BODY -->
+        <div class="list offcanvas-body">
+            <div class="row">
+                <h5>Categorias</h5>
+            </div>
+            <div class="list-category row">
+                <h6><b>Uso</b></h6>
+            </div>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4m2xguH06Ls2XCC6TqyRMqXvlD3C9VQ6gCDJwBtjyoAE-dVzObrUK_dxqGuvMJZz1qSSnykwsofOEyXp6mWh6D2l9E_R3o7AtVXHIAjbQi3HOAgCCmntOc65UpHk1k7NrKKJoMwFAjrRqT6IvnzZc6elTKeQAsSioC7XkDt7prZMElKzf10PfmWXwOgxyWO4uF?width=256&height=242&cropmode=none"
+                        width="25" height="25" alt="new" /></div>
+                <div class="col col-5">Nuevo</div>
+            </div>
+            </a>
+            <a class="link-search" href="./apartadoEquipoUsado.html">
+            <div class="list-search row">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4mafmGEuiiOz6b243W08rqMXHWUaX7Z7JKojCQQ-wfl1b9ed78pJrdwmAato3gp2cuqCTJRpJ4oRQqUOPzt5RhdpDZqwetTtXqlKrttgkotsAypGG6dEsGz7lSkKywojWevqTlwbFI7J7RIVYQyjwIIZfk2nzgkqPzsHPHbfoeI1EG_r75m7jZnXl9qHxB-NP1?width=256&height=172&cropmode=none"
+                        width="30" height="25" alt="hand" /></div>
+                <div class="col col-10">Segunda mano</div>
+            </div>
+            </a>
+            <hr>
+            <div class="list-category row">
+                <h6><b>Tipo de dispositivo</b></h6>
+            </div>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdropCompu"
+                aria-controls="offcanvasWithBackdrop">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4mRZVbqb7SFgtBlwrkJMcfour6NVS1v3CHNrKfi-UglHh69bNYrHKeS7sw9BiGrEhxfQPTGSjqZ2Avudwwb8n0gngKnQ7_dRfMA0QE26yi-xHaEWKLEKSbxtdOaob8NUjvzeHpLLjQSj6JCiS7ARGyFr39AnxAcklCGRc9mUgEtD15G5rdfXCglpujXavxoI6z?width=183&height=160&cropmode=none"
+                        width="30" height="25" alt="computer" /></div>
+                <div class="col col-10">Computadora</div>
+            </div>
+            </a>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdropCel"
+                aria-controls="offcanvasWithBackdrop">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4mek0oPIZGiKW2albfjsy73mM0pKp4PwdjlTI74E-HOzyIOoH24ocLPQo2OwP9-IxPzE0IPzPEXkjywsSff8orhxLGKrQs-1PtIORKudMVnz1F34Z1JiboaXypTdAPc1N7iQRcUoasYP7_3LHv3yUA9EZO3A14ptx7o9JW4awfgf1Ea6_cAcJm9J-mQSLlvBbV?width=264&height=489&cropmode=none"
+                        width="20" height="25" /></div>
+                <div class="col col-10">Celular</div>
+            </div>
+            </a>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdropTablet"
+                aria-controls="offcanvasWithBackdrop">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4m2tyjChDZIfHDi0tYpRe2Ol2R7SnnewkbR34YquIFf8mzNXdnYUA40-b_L3P_hevvawtsJ3SSqUJmfMRzmDsJW8Qzd_ll3b1EwEJ9F-fXUM2xxquyQg0mI2fUjf6t5x0OoncsLUbwgE5rvPdF1vISIoLtuE64rmUbl-PD_uFStRrl2X5O2x7G_pDCW00Cw1Y7?width=538&height=383&cropmode=none"
+                        width="30" height="25" /></div>
+                <div class="col col-10">Tablet</div>
+            </div>
+            </a>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdropAudio"
+                aria-controls="offcanvasWithBackdrop">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4mBIKiP-bF5gLnLCq_igDmeYUlidFftt5jVzB5oi-Kbm1UjD1bNaPECSCxHsGqvVNNhgDbwBIbfHfv6HpbUMiyCUGXLimO16ghsQpjRHY1zc1dhnkbKMtaOMPGI0rMX8xgQLqjTj7uuwbcuG2In1y0EFHisg1mSki9pu3sqNBxiObrkEvtNWpaXAJM0jZKOEwX?width=528&height=504&cropmode=none"
+                        width="25" height="25" /></div>
+                <div class="col col-10">Audio</div>
+            </div>
+            </a>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdropVideo"
+                aria-controls="offcanvasWithBackdrop">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4mnEGPCuXnQcisJj5aNlXYqdvPNxlZNPTpSkEjj74HlJOEKRHp2hUVuVTGcy1_tPDFODROeFWTdWn-sm-fHUbn-xAIzjKQLMH4bef3yHv6YVxNsnDW_PmxqaqdwmXNWWkcsyqm5G5fVfqUcD78R4CQ0u235GWnoDZssFOpi6G6pFSjl1YgWNRT5DF9JiMZ3qEX?width=547&height=366&cropmode=none"
+                        width="30" height="25" /></div>
+                <div class="col col-10">Video</div>
+            </div>
+            </a>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdropGatgets"
+                aria-controls="offcanvasWithBackdrop">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4m8P60H01hE44lUd4oZY5Jw7RDdOU1K84PbkGJL7nPcUM0DNr6fwHkCEwVvxNBBJPMxzBsSaZI4GJQqeVSnoGVHxXPf-pGlrzk_OVLa3pyQYIQM6qHwdsCfsseHokjopRwRSi_Nl17feu6ylqmPYpIvnmQrM9usFaPUbvW2Hr7KZMdwsV55bbvuVXm_vj_wgr5?width=286&height=507&cropmode=none"
+                        width="20" height="25" /></div>
+                <div class="col col-10">Gadgets</div>
+            </div>
+            </a>
+            <hr>
+            <div class="list-category row">
+                <h6><b>Tendencias</b></h6>
+            </div>
+            <a class="link-search" href="./ofertas.html">
+            <div class="list-search row">
+                <div class="col col-2"><img
+                    src="https://bn02pap001files.storage.live.com/y4mgHItilGw-5TuF0exMCd_y0Db4zfwQwBK3jNqLPcU_PqrFHknt-NOR_RQif8qu7fA43YFPV501vRp12qnpYtaGsBG0nUpnjVT10WmzoUH5jzCJafIYkJXABJjG-mbLBLQSpn5VsiLcqM941nQltC3-cHBc8VYjjk-mPM02uQ3IYhD7ehn-zQZEkL8QMrDpAEv?width=505&height=438&cropmode=none"
+                        width="25" height="25" /></div>
+                <div class="col col-10">Ofertas</div>
+            </div>
+            </a>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4mbSO5j1k5XGNqmHoOVqLNr_S3ZTX3sryh9WLjuaesUkh0GCzZ9o1ITbYRD5fumX1R3k5e34gEghwSRc8En7reXlffz4hlJrxPWPsZp0KpYVBv639lridTdN_LsHo-iQwNh3OrM34z8NnTy2GacGbSqR1Vn31GOrZ1bRKI3COMfM61mCSKHLQrVYgUkLvQ8j?width=436&height=415&cropmode=none"
+                        width="25" height="25" /></div>
+                <div class="col col-10">Lo más vendido</div>
+            </div>
+            </a>
+            <a class="link-search" href="./productos.html">
+            <div class="list-search row">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4mu2erIUKyuuq_M-AGL23AdaycTicQtUKo3yXd0efLy1VPjnKtacZ3P1Ensrc68CtLh2XBr-NzSJxWSmsaxwGJH755hgA0pDIH4NDdQZCNEO2P8slwQpeHesUaXpZg4bNxciYFUmqg0kZBjO_QiIJc9pGXWlWFjlwKB5bZ6X4aj9EriB4MSu3tftYl6n_xQ9oJ?width=347&height=531&cropmode=none"
+                        width="25" height="25" /></div>
+                <div class="col col-10">Últimas novedades</div>
+            </div>
+            </a>
+            <a class="link-search" href="./favoritos.html">
+            <div class="list-search row">
+                <div class="col col-2"><img
+                        src="https://bn02pap001files.storage.live.com/y4mgHItilGw-5TuF0exMCd_y0Db4zfwQwBK3jNqLPcU_PqrFHknt-NOR_RQif8qu7fA43YFPV501vRp12qnpYtaGsBG0nUpnjVT10WmzoUH5jzCJafIYkJXABJjG-mbLBLQSpn5VsiLcqM941nQltC3-cHBc8VYjjk-mPM02uQ3IYhD7ehn-zQZEkL8QMrDpAEv?width=505&height=438&cropmode=none"
+                        width="25" height="25" /></div>
+                <div class="col col-10">Tus intereses</div>
+            </div>
+            </a>
+            <hr>
+            <div class="list-category row">
+                <h6><b>Contacto</b></h6>
+            </div>
+            <a class="link-search" href="./contactanos.html">
+                <div class="list-search row">
+                    <div class="col col-2"><img
+                            src="https://bn02pap001files.storage.live.com/y4mxaAeoDkPT2KIpYa663g8J5wWD7BX9wP1KbrfHboxyYv1vdk6o0h_AqkoNo4V0LeyhsDvNPgMOrv1wNg75A2QDQ4hlvd5hEyHQyzTK66Z7BOx-mamE3_9TCfyhKxmKrjeLeyxA0_mhTJBawpVFMl0Z2cfB72m1lFCk-i4QnJoeytTH4FP2ZmUykvj_N23g5kA?width=490&height=497&cropmode=none"
+                            width="25" height="25" /></div>
+                    <div class="col col-10">Contáctanos</div>
+                </div>
+            </a>
+            <a class="link-search" href="./acercaDe.html">
+                <div class="list-search row">
+                    <div class="col col-2"><img
+                            src="https://bn02pap001files.storage.live.com/y4mPL2j6m0YTowH0D897DJqztGSovWw7xiWqiCIBYvBq5cNElA-v5xYVVrvjVEBGUwJTG5ff0q7_vKmmKN4hdrp4pOf3daRFqfTfspe-hThOGBr5sn9o7ZztBTNQPpE92Q2ZcN37HIiHavuMvi6_cmuBtpq357BgJuu_RRHYsjR0U1hQX0ZauH0xmOpmunkYIE1?width=526&height=505&cropmode=none"
+                            width="25" height="25" /></div>
+                    <div class="col col-10">Acerca De</div>
+                </div>
+            </a>
+            <a class="link-search" href="./4a_Login.html">
+                <div class="list-search row">
+                    <div class="col col-2"><img
+                            src="https://bn02pap001files.storage.live.com/y4maAFhrT_rCAnxtzUoK34tyLz5m1_YZ7p307QPVI6y6mXBaJk2eSWoX2U9cgo1rEy0SYkGgNOQkQ5LteAyWN-R1OK7-3O4NjFIOkQQCpAgrQdAsWn5bMxSKYY-p4cVRZXGAmk59TJSn1ITVFanLRlcHaKVDdd-2X1H8Z5-O2q2E6PRwraoz0J3bnw6ifKJiAtg?width=532&height=522&cropmode=none"
+                            width="25" height="25" /></div>
+                    <div class="col col-10">Mi cuenta</div>
+                </div>
+            </a>
+        </div>
+    </div>
 
     <!--Main-->
     <section class="main" class="home pt-5 overflow-hidden">
@@ -220,7 +413,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
+        <script src="./static/js/carrito.js"></script>
 
     <!-- Main.js -->
 </body>

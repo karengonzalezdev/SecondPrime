@@ -673,10 +673,7 @@ p {
     border: 1px solid var(--bg-grad-blue);
     border-radius: 5px;
 }
-#carrito th{
-    color: var(--bg-grad-bluehard);
-    
-}
+
 #carrito .buttonDelete{
     border-radius: 0%;
     font-weight: bold;
